@@ -1,0 +1,11 @@
+[Database]
+
+# This is the path to the SQLite database.
+# create it first using the myfitnesspal.sql file
+db_file = /your/path/to/db/myfitnesspal.db
+
+[MyFitnessPal]
+
+# This is the path to access the diary entries. 
+# Must be publicly visible
+base_url = http://www.myfitnesspal.com/food/diary/*YourUserName*
